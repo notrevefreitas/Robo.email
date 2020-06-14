@@ -40,14 +40,14 @@ print("Escrevendo o e-mail...")
 para = driver.find_element_by_name("to")
 para.send_keys(destinatario)
 para.send_keys(Keys.RETURN)
-
+# titulo 
 titulo = driver.find_element_by_name("subjectbox")
 titulo.send_keys(assunto)
 titulo.send_keys(Keys.RETURN)
-
+#corpo texto
 corpo_de_texto = driver.find_element_by_xpath("//div[@role='textbox']")
 corpo_de_texto.send_keys(mensagem)
-
+#enviar texto .
 enviar = driver.find_element_by_xpath("//div[@aria-label='Enviar ‪(Ctrl-Enter)‬']")
 enviar.click()
 print("Enviado e-mail...")
