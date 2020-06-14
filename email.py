@@ -35,7 +35,7 @@ print("Login realizado...")
 print("Abrindo caixa de e-mail")
 driver.get("https://mail.google.com/mail/u/0/#inbox?compose=new")
 time.sleep(10)
-
+# destinatario
 print("Escrevendo o e-mail...")
 para = driver.find_element_by_name("to")
 para.send_keys(destinatario)
