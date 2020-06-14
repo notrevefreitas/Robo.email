@@ -8,8 +8,11 @@ git branch // gerencia novas linhas tempo
 git checkout //manipula as linhas do tempo 
 git merge // unir linhas do tempo
 git push /q envia alterações locais para o repositorio remoto
+git clone // clonar um projeto/ repositorio 
+git pull // puxa do repositorio remoto 
 
-  
+
+
 
 
 
