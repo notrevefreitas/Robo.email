@@ -23,7 +23,7 @@ login.clear()
 login.send_keys(email)
 login.send_keys(Keys.RETURN)
 time.sleep(2)
-
+# SENHA
 password = driver.find_element_by_name("password")
 password.clear()
 password.send_keys(senha)
